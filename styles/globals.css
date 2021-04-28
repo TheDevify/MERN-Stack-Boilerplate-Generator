@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700&display=swap");
+
+html,
+body {
+  background-color: #373737 !important;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-bg {
+  background-color: #2b2b2b !important;
+}
+
+.logo {
+  width: auto;
+  height: 256px;
+}
+
+.title {
+  letter-spacing: 1.8pt;
+}
+
+.subtitle {
+  letter-spacing: 1pt;
+}
+
+.btn-main {
+  background-color: #3a2fa7 !important;
+  color: #fdfdfd !important;
+  border-radius: 1rem !important;
+  transition: all 300ms ease-in-out !important;
+}
+
+.btn-main:hover {
+  background-color: #201688 !important;
+}
+
+.btn-second {
+  background-color: #fdfdfd !important;
+  color: #3a2fa7 !important;
+  border-radius: 1rem !important;
+  transition: all 300ms ease-in-out !important;
+}
+
+.btn-second:hover {
+  background-color: #d0d0d0 !important;
+}
+
+.card {
+  border-radius: 1.5rem !important;
+}
+
+.footer-icon {
+  width: 32px;
+  color: #757575 !important;
+}
+
+.fa-discord,
+.fa-github {
+  transition: all 200ms ease-in-out;
+}
+
+.fa-discord:hover,
+.fa-github:hover {
+  color: #6355dd !important;
+}
