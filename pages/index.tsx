@@ -158,7 +158,7 @@ export default function Home() {
                           className="btn btn-main btn-block py-3"
                           onClick={downloadZip}
                         >
-                          Download ZIP File
+                          DOWNLOAD ZIP FILE
                         </button>
                       </div>
                       <div className="col-md-6 mt-5">
@@ -170,7 +170,9 @@ export default function Home() {
                               : signIn();
                           }}
                         >
-                          Push To GitHub
+                          {session?.user.email
+                            ? "PUSH TO GITHUB"
+                            : "SIGN IN TO PUSH TO GITHUB"}
                         </button>
                       </div>
                     </div>
